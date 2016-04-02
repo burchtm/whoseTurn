@@ -13,6 +13,7 @@
 		93B4B3E81CB03AC70061265B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B4B3E71CB03AC70061265B /* Assets.xcassets */; };
 		93B4B3F31CB03AC70061265B /* whoseTurnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4B3F21CB03AC70061265B /* whoseTurnTests.swift */; };
 		93B4B3FE1CB03AC70061265B /* whoseTurnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4B3FD1CB03AC70061265B /* whoseTurnUITests.swift */; };
+		93B4B40C1CB03B480061265B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B4B40B1CB03B480061265B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		93B4B3F91CB03AC70061265B /* whoseTurnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whoseTurnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B4B3FD1CB03AC70061265B /* whoseTurnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whoseTurnUITests.swift; sourceTree = "<group>"; };
 		93B4B3FF1CB03AC70061265B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B4B40B1CB03B480061265B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B4B40C1CB03B480061265B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 		93B4B3D41CB03AC50061265B = {
 			isa = PBXGroup;
 			children = (
+				93B4B40B1CB03B480061265B /* UIKit.framework */,
 				93B4B3DF1CB03AC70061265B /* whoseTurn */,
 				93B4B3F11CB03AC70061265B /* whoseTurnTests */,
 				93B4B3FC1CB03AC70061265B /* whoseTurnUITests */,
